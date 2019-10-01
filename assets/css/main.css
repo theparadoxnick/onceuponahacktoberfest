@@ -1,0 +1,64 @@
+
+/* Vars */
+
+:root {
+  --purple: #452367;
+  --gray: #2C3E50;
+  --green: #4CAF50;
+}
+
+/* Generics */
+
+body {
+  position: relative;
+  color: var(--gray);
+  background-image: url('../images/ep_naturalwhite.png');
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+body:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--green);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+p {
+  margin-top: 20px;
+  line-height: 1.4em;
+}
+
+/* Book */
+
+.book__wrap {
+  padding: 20px;
+}
+
+.book__title {
+  color: var(--purple);
+}
