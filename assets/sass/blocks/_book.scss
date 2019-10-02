@@ -6,21 +6,26 @@
     
     &__section {
         text-align: center;
+        padding: 20px;
+        @include laptop {
+            padding: 0;
+        }
     }
 
-    &__content {
+    &__wrap {
         max-width: 740px;
         margin: 0 auto;
         text-align: center;
     }
     
     &__title {
-        color: $dark-green;
+        color: $gray;
         text-shadow: $text-shadow;
         padding: 40px 0;
     }
 
     &__chapter {
+        color: $ocean-gray;
         text-shadow: $text-shadow;
         padding-bottom: 40px;
     }
@@ -28,21 +33,38 @@
     &__button {
         margin: 40px 0;
         border: 1px solid $dark-green;
-        color: $dark-green;
         padding: 20px;
-        background-color: transparent;
-        transition: .5s background-color ease;
         font-weight: bold;
-
-        &:hover {
-            background-color: $dark-green;
-            color: white;
+        color: white;
+        background-color: $dark-green;
+        outline: none;
+        
+        @include laptop {
+            color: $dark-green;
+            background-color: transparent;
+            transition: .5s background-color ease;
+    
+            &:hover {
+                background-color: $dark-green;
+                color: white;
+            }
         }
+
     }
 
-}
-
-@font-face {
-    font-family: "CelticMD";
-    src: url("../fonts/celticmd.ttf");
+    &__detail {
+        @include laptop {
+            position: fixed;
+            bottom: 0;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.6;
+            background-image: url('../images/thorns.png');
+            filter: drop-shadow(2px 4px 6px black);
+            z-index: -1;
+        }
+    }
 }

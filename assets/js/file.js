@@ -18,7 +18,7 @@ window.onload = () => {
     var button = document.getElementById("book__button");
 
     button.addEventListener("click", () => {
-        var text = document.getElementById('book__section').innerText;
+        var text = document.getElementById('book__content').innerText;
         var filename = "teste.txt";
 
         download(filename, text);

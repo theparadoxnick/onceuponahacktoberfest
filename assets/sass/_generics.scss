@@ -2,7 +2,7 @@ body {
     position: relative;
     color: $dark-gray;
     background-image: url('../images/ep_naturalwhite.png');
-    font-family: 'Montserrat', sans-serif;
+    font-family: $montserrat;
     margin: 0;
     padding: 0;
     z-index: 1;
@@ -21,7 +21,7 @@ body:after {
   }
   
 h1, h2 {
-    font-family: 'Great Vibes', cursive;
+    font-family: $great-vibes;
     text-align: center;
 }
 
@@ -49,9 +49,9 @@ p {
 p::first-letter {
     float: left;
     font-size: 5em;
-    margin: 0.1em 0em 0 0;
+    margin: 0.4em 0 0 0;
     padding: 8px;
-    font-family: 'CelticMD', sans-serif;
+    font-family: $celtic;
 }
 
 ::-webkit-scrollbar {

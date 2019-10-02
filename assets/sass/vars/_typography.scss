@@ -1,0 +1,18 @@
+$great-vibes: 'Great Vibes', cursive;
+$montserrat: 'Montserrat', sans-serif;
+$celtic: 'CelticMD';
+
+@font-face {
+    font-family: $celtic;
+    src: url('../fonts/celticmd.ttf');
+}
+
+@font-face {
+    font-family: $great-vibes;
+    src: url('../fonts/subset-GreatVibes-Regular.ttf');
+}
+
+@font-face {
+    font-family: $montserrat;
+    src: url('../fonts/subset-GreatVibes-Regular.ttf');
+}
