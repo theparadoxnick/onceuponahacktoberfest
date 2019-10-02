@@ -1,0 +1,9 @@
+// Ordenando Querys
+@media (min-width: $tab-p-width){/* # */};
+@media (min-width: $tab-l-width){/* # */};
+@media (min-width: $lap-width){/* # */};
+@media (min-width: $desk-width){/* # */};
+@media (max-width: #{ $tab-p-width - 1px }){/* # */};
+@media (max-width: #{ $tab-l-width - 1px }){/* # */};
+@media (max-width: #{ $lap-width - 1px }){/* # */};
+@media (max-width: #{ $desk-width - 1px }){/* # */};

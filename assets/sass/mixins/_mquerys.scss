@@ -1,0 +1,72 @@
+//-----------------------------------
+// Mquerys
+// 
+// Função que organiza os media querys
+//
+//  Exemplo de uso:
+//
+//  Para min-width ( mobile first )
+//  @include tablet-p { ... }
+//
+//  Para max-width
+//  @include phone { ... }
+
+
+//-----------------------------------
+// CONFIG
+//-----------------------------------
+
+$tab-p-width:  640px;
+$tab-l-width:  910px;
+$lap-width:   1140px;
+$desk-width:  1420px;
+
+//-----------------------------------
+
+@mixin tablet-p {
+  @media ( min-width: #{ $tab-p-width } ) {
+    @content;
+  }
+}
+
+@mixin tablet-l {
+  @media ( min-width: #{ $tab-l-width } ) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media ( min-width: #{ $lap-width } ) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media ( min-width: #{ $desk-width } ) {
+    @content;
+  }
+}
+
+@mixin max-phone {
+  @media ( max-width: #{ $tab-p-width - 1px } ) {
+    @content;
+  }
+}
+
+@mixin max-tablet-p {
+  @media ( max-width: #{ $tab-l-width - 1px } ) {
+    @content;
+  }
+}
+
+@mixin max-tablet-l {
+  @media ( max-width: #{ $lap-width - 1px } ) {
+    @content;
+  }
+}
+
+@mixin max-laptop {
+  @media ( max-width: #{ $desk-width - 1px } ) {
+    @content;
+  }
+}

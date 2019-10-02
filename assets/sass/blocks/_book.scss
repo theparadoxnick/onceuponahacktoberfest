@@ -1,0 +1,48 @@
+//---------------
+// Book
+//---------------
+
+.book { 
+    
+    &__section {
+        text-align: center;
+    }
+
+    &__content {
+        max-width: 740px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    &__title {
+        color: $dark-green;
+        text-shadow: $text-shadow;
+        padding: 40px 0;
+    }
+
+    &__chapter {
+        text-shadow: $text-shadow;
+        padding-bottom: 40px;
+    }
+
+    &__button {
+        margin: 40px 0;
+        border: 1px solid $dark-green;
+        color: $dark-green;
+        padding: 20px;
+        background-color: transparent;
+        transition: .5s background-color ease;
+        font-weight: bold;
+
+        &:hover {
+            background-color: $dark-green;
+            color: white;
+        }
+    }
+
+}
+
+@font-face {
+    font-family: "CelticMD";
+    src: url("../fonts/celticmd.ttf");
+}

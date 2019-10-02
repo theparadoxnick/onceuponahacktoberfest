@@ -1,0 +1,12 @@
+// Arquivo que importa todos os vars
+@import '_vars';
+// Arquivo que importa todos os mixins
+@import '_mixins';
+// Arquivo que organiza a ordem dos media querys
+@import '_mquery-order';
+// Importa as bibliotecas externas de CSS
+@import '_libs';
+// Agrupa todos os elementos sem classe do projeto
+@import '_generics';
+// Agrupa todos os blocos do projeto
+@import '_blocks';
