@@ -1,4 +1,4 @@
-# Once Upon a Hacktoberfest
+# :jack_o_lantern: Once Upon a Hacktoberfest :jack_o_lantern:
 Once Upon a Hacktoberfest is a collaborative project whose goal is to write the greatest fantasy story written by developers worldwide!
 
 ## How to contribute to this project
@@ -38,5 +38,4 @@ git push origin branch-name
 * Create a new pull request from your forked repository (Click the _New Pull Request_ button located at the top of your repo)
 * And finally wait for your PR review and merge approval!
 
-## :jack_o_lantern: Happy Halloween Folks! :jack_o_lantern:
-
+## Happy Halloween Folks! :jack_o_lantern: :ghost:
