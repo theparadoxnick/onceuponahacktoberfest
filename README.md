@@ -36,5 +36,7 @@ git commit -m 'Commit message'
 git push origin branch-name
 ```
 * Create a new pull request from your forked repository (Click the _New Pull Request_ button located at the top of your repo)
-* Wait for your PR review and merge approval!
+* And finally wait for your PR review and merge approval!
+
+# Happy Halloween
 
