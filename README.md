@@ -38,4 +38,4 @@ git push origin branch-name
 * Create a new pull request from your forked repository (Click the _New Pull Request_ button located at the top of your repo)
 * And finally wait for your PR review and merge approval!
 
-## Happy Halloween Folks! :jack_o_lantern: :ghost:
+**Happy Halloween Folks!** :jack_o_lantern: :ghost:
