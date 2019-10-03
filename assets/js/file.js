@@ -19,7 +19,7 @@ window.onload = () => {
 
     button.addEventListener("click", () => {
         var text = document.getElementById('book__content').innerText;
-        var filename = "teste.txt";
+        var filename = "Once-Upon-a-Hacktoberfest.txt";
 
         download(filename, text);
 

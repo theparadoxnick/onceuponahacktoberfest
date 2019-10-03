@@ -15,7 +15,7 @@ body:after {
     min-height: 100vh;
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom, #fff 0%, rgba(70,80,70,1) 100%);
+    background: linear-gradient(to top, #2b195f 0%, #021f02 100%);
     opacity: 0.6;
     z-index: -1;
   }
@@ -30,7 +30,7 @@ h1, h2, p {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3.8em;
     margin-bottom: 0;
 }
 

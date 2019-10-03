@@ -13,35 +13,38 @@
     }
 
     &__wrap {
-        max-width: 740px;
+        max-width: 600px;
         margin: 0 auto;
         text-align: center;
     }
     
     &__title {
-        color: $gray;
-        text-shadow: $text-shadow;
+        color: white;
+        text-shadow: -5px 3px rgba(0, 0, 0, 0.44);
         padding: 40px 0;
     }
 
     &__chapter {
-        color: $ocean-gray;
-        text-shadow: $text-shadow;
+        color: #ffe352;
         padding-bottom: 40px;
+    }
+
+    &__text {
+        color: cornsilk;
     }
 
     &__button {
         margin: 40px 0;
-        border: 1px solid $dark-green;
         padding: 20px;
         font-weight: bold;
         color: white;
+        border: 1px solid $dark-green;
         background-color: $dark-green;
         outline: none;
         
         @include laptop {
-            color: $dark-green;
-            background-color: transparent;
+            color: white;
+            background-color: rgba(0,0,0,0.6);
             transition: .5s background-color ease;
     
             &:hover {
@@ -63,7 +66,6 @@
             background-size: cover;
             opacity: 0.6;
             background-image: url('../images/thorns.png');
-            filter: drop-shadow(2px 4px 6px black);
             z-index: -1;
         }
     }

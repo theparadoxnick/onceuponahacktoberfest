@@ -214,7 +214,7 @@ body:after {
   min-height: 100vh;
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, #fff 0%, #465046 100%);
+  background: linear-gradient(to top, #2b195f 0%, #021f02 100%);
   opacity: 0.6;
   z-index: -1;
 }
@@ -232,7 +232,7 @@ h1, h2, p {
 
 /* line 32, assets/sass/_generics.scss */
 h1 {
-  font-size: 4em;
+  font-size: 3.8em;
   margin-bottom: 0;
 }
 
@@ -287,32 +287,36 @@ p::first-letter {
 
 /* line 15, assets/sass/blocks/_book.scss */
 .book__wrap {
-  max-width: 740px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
 }
 
 /* line 21, assets/sass/blocks/_book.scss */
 .book__title {
-  color: #2C3E50;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  color: white;
+  text-shadow: -5px 3px rgba(0, 0, 0, 0.44);
   padding: 40px 0;
 }
 
 /* line 27, assets/sass/blocks/_book.scss */
 .book__chapter {
-  color: #28496b;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  color: #ffe352;
   padding-bottom: 40px;
 }
 
-/* line 33, assets/sass/blocks/_book.scss */
+/* line 32, assets/sass/blocks/_book.scss */
+.book__text {
+  color: cornsilk;
+}
+
+/* line 36, assets/sass/blocks/_book.scss */
 .book__button {
   margin: 40px 0;
-  border: 1px solid #465046;
   padding: 20px;
   font-weight: bold;
   color: white;
+  border: 1px solid #465046;
   background-color: #465046;
   outline: none;
 }
@@ -328,18 +332,18 @@ p::first-letter {
   .book__section {
     padding: 0;
   }
-  /* line 33, assets/sass/blocks/_book.scss */
+  /* line 36, assets/sass/blocks/_book.scss */
   .book__button {
-    color: #465046;
-    background-color: transparent;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
     transition: .5s background-color ease;
   }
-  /* line 47, assets/sass/blocks/_book.scss */
+  /* line 50, assets/sass/blocks/_book.scss */
   .book__button:hover {
     background-color: #465046;
     color: white;
   }
-  /* line 55, assets/sass/blocks/_book.scss */
+  /* line 58, assets/sass/blocks/_book.scss */
   .book__detail {
     position: fixed;
     bottom: 0;
@@ -350,8 +354,6 @@ p::first-letter {
     background-size: cover;
     opacity: 0.6;
     background-image: url("../images/thorns.png");
-    -webkit-filter: drop-shadow(2px 4px 6px black);
-            filter: drop-shadow(2px 4px 6px black);
     z-index: -1;
   }
 }
