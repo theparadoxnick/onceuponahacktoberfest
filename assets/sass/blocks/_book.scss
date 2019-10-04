@@ -45,11 +45,12 @@
         @include laptop {
             color: white;
             background-color: rgba(0,0,0,0.6);
-            transition: .5s background-color ease;
+            transition: .5s background-color, border ease;
     
             &:hover {
-                background-color: $dark-green;
-                color: white;
+                background-color: #ffe352;
+                border: 1px solid #ffe352;
+                color: black;
             }
         }
 

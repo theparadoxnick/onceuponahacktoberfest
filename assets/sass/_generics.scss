@@ -63,12 +63,7 @@ section p:first-of-type {
 ::-webkit-scrollbar-track {
     background-color: $dark-gray;
 }
-   
+
 ::-webkit-scrollbar-thumb {
-    background-color: $gray;
-    transition: .5s background-color ease;
-}
-  
-::-webkit-scrollbar-thumb:hover {
     background-color: lighten($gray,10); 
 }
