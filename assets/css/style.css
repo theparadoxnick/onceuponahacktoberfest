@@ -250,7 +250,7 @@ p {
 }
 
 /* line 49, assets/sass/_generics.scss */
-p::first-letter {
+section p:first-of-type::first-letter {
   float: left;
   font-size: 5em;
   margin: 0.4em 0 0 0;
@@ -258,23 +258,23 @@ p::first-letter {
   font-family: "CelticMD";
 }
 
-/* line 57, assets/sass/_generics.scss */
+/* line 59, assets/sass/_generics.scss */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* line 61, assets/sass/_generics.scss */
+/* line 63, assets/sass/_generics.scss */
 ::-webkit-scrollbar-track {
   background-color: #262626;
 }
 
-/* line 65, assets/sass/_generics.scss */
+/* line 67, assets/sass/_generics.scss */
 ::-webkit-scrollbar-thumb {
   background-color: #2C3E50;
   transition: .5s background-color ease;
 }
 
-/* line 70, assets/sass/_generics.scss */
+/* line 72, assets/sass/_generics.scss */
 ::-webkit-scrollbar-thumb:hover {
   background-color: #3e5871;
 }

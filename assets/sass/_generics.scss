@@ -45,14 +45,16 @@ p {
     text-align: left;
 }
 
-
-p::first-letter {
-    float: left;
-    font-size: 5em;
-    margin: 0.4em 0 0 0;
-    padding: 8px;
-    font-family: $celtic;
+section p:first-of-type {
+    &::first-letter {
+        float: left;
+        font-size: 5em;
+        margin: 0.4em 0 0 0;
+        padding: 8px;
+        font-family: $celtic;
+    }
 }
+
 
 ::-webkit-scrollbar {
     width: 10px;
